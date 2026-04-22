@@ -1,15 +1,15 @@
 export interface GestureEventType {
-    nativeEvent: { translationX: number, translationY: number};
+  nativeEvent: { translationX: number; translationY: number };
 }
 
 export interface Coordinate {
-    x: number;
-    y: number;
+  x: number;
+  y: number;
 }
 
 export enum Direction {
-    Right,
-    Up,
-    Left,
-    Down,
+  Right,
+  Up,
+  Left,
+  Down,
 }
